@@ -1,0 +1,25 @@
+{
+  "name": "solid-pancake",
+  "version": "1.0.0",
+  "description": "MOje nalesniki",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamboneDev/solid-pancake.git"
+  },
+  "keywords": [
+    "pancake"
+  ],
+  "author": "ja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamboneDev/solid-pancake/issues"
+  },
+  "homepage": "https://github.com/HamboneDev/solid-pancake#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
