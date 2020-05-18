@@ -43,7 +43,7 @@ function calculator (moneyPaid){
         return moneyPaid * 0.1;
     }
 }
- var bill = [100, 48, 20];
+ var bill = [124, 48, 268];
  var tip =[0, 0, 0];
  for (i=0; i<bill.length; i++){
      tip[i] = calculator (bill[i]);
