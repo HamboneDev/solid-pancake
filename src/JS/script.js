@@ -51,10 +51,51 @@ function calculator (moneyPaid){
      
  }
  for (i=0; i<bill.length; i++){
-    console.log(tip[i]+bill[i])
+    console.log(tip[i]+bill[i]);
  }
+
+
+ //Chalange nr_4
+
+ var firstGuy = {
+firstName : 'John',
+secondName : 'White',
+mass: 90,
+height : 1.80,
+BMI_John: function (){
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi ;
+}
+
+ } ;
+
+
+var secondGuy = {
+firstName: 'Mark',
+secondName: 'Black',
+mass: 100,
+height: 1.95,    
+BMI_Mark: function (){
+    this.bmi = this.mass / (this.height * this.height);
+    return this.bmi ;
+ }
+}
+firstGuy.BMI_John();
+secondGuy.BMI_Mark();
+console.log(firstGuy, secondGuy);
  
 
+
+
+if (firstGuy.bmi > secondGuy.bmi){
+    console.log(firstGuy.firstName + firstGuy.secondName + 'has BMI of:' + firstGuy.bmi );
+}
+    else if (firstGuy.bmi < secondGuy.bmi){
+    console.log(secondGuy.firstName + secondGuy.secondName + 'has BMI of:' + secondGuy.bmi );
+    }
+    else {
+        console.log(firstGuy.firstName + ' and ' + secondGuy.firstName + ' They have the same BMI of ' + firstGuy.bmi);
+    }
 
         
 
